@@ -5,6 +5,6 @@ module com.oop.mahadi.demo {
 
     opens com.oop.mahadi.demo11 to javafx.fxml;
     exports com.oop.mahadi.demo11;
-    exports com.oop.mahadi.demo11.TechnicianController;
-    opens com.oop.mahadi.demo11.TechnicianController to javafx.fxml;
+    exports com.oop.mahadi.demo11.j;
+    opens com.oop.mahadi.demo11.j to javafx.fxml;
 }
