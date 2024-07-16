@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.OOP.mahadi</groupId>
-    <artifactId>GitDemo</artifactId>
+    <artifactId>Akash__DTH</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>GitDemo</name>
+    <name>Akash__DTH</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.oop.mahadi.gitdemo/com.oop.mahadi.gitdemo.HelloApplication</mainClass>
+                            <mainClass>com.oop.mahadi.akash__dth/com.oop.mahadi.akash__dth.Mainapplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
