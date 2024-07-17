@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.mahadi.akash__dth.ContentManagerControllerClass.ContentManagerDashboardController">
+   <children>
+      <Label layoutX="45.0" layoutY="34.0" text="Content Manager Dashboard" />
+      <Button fx:id="backButton" layoutX="534.0" layoutY="351.0" mnemonicParsing="false" onAction="#backButton" text="Back" />
+      <Button layoutX="85.0" layoutY="123.0" mnemonicParsing="false" onAction="#applyforloanbutton" text="Apply for loan" />
+      <Button layoutX="90.0" layoutY="68.0" mnemonicParsing="false" onAction="#addChannelbbUTTON" text="Add channel" />
+      <Button layoutX="424.0" layoutY="123.0" mnemonicParsing="false" onAction="#seeNotoficationButton" text="See notice" />
+      <Button layoutX="424.0" layoutY="68.0" mnemonicParsing="false" onAction="#permissionButton" text="Broadcast permission&#10; to admin" />
+      <Button layoutX="216.0" layoutY="123.0" mnemonicParsing="false" onAction="#viewShipdataButton" text="viewship data" />
+      <Button layoutX="322.0" layoutY="123.0" mnemonicParsing="false" onAction="#DocumentsButton" text="Doocuments" />
+      <Button layoutX="322.0" layoutY="68.0" mnemonicParsing="false" onAction="#editchannelButton" text="Edit A channel" />
+      <Button layoutX="216.0" layoutY="68.0" mnemonicParsing="false" onAction="#DellchannelButton" text="Dell Chnnel" />
+   </children>
+</AnchorPane>
