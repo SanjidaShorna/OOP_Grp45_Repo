@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.mahadi.akash__dth.ContentManagerREQChannelStatusController">
+   <children>
+      <ComboBox fx:id="channelnewComfxid" layoutX="153.0" layoutY="56.0" prefWidth="150.0" />
+      <Label layoutX="64.0" layoutY="60.0" text="REQ Channel" />
+      <TextArea fx:id="DettailsWhyShowtextfxid" layoutX="61.0" layoutY="104.0" prefHeight="201.0" prefWidth="490.0" />
+      <Button layoutX="567.0" layoutY="370.0" mnemonicParsing="false" onAction="#backbutton" text="Back" />
+      <Label fx:id="accept_declineShowFxid" layoutX="384.0" layoutY="48.0" prefHeight="35.0" prefWidth="99.0" text="Accept/Decline" />
+   </children>
+</AnchorPane>
