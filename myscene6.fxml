@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cse213projects.spring2024.cse213project.Myscene6">
+   <children>
+      <Label layoutX="23.0" layoutY="24.0" prefHeight="18.0" prefWidth="120.0" text="Admin Dashboard " />
+      <Button layoutX="474.0" layoutY="53.0" mnemonicParsing="false" onAction="#registeronclick" text="Register" />
+      <Button layoutX="474.0" layoutY="120.0" mnemonicParsing="false" onAction="#manageusersonclick" text="Manage Users" />
+      <Label fx:id="usernamelabel" layoutX="160.0" layoutY="70.0" text="Username" />
+      <Label fx:id="passwordlabel" layoutX="170.0" layoutY="146.0" text="Password" />
+      <TextField fx:id="usernametextfield" layoutX="249.0" layoutY="66.0" />
+      <TextField fx:id="passwordtextfield" layoutX="250.0" layoutY="142.0" />
+      <Button layoutX="9.0" layoutY="66.0" mnemonicParsing="false" onAction="#usermanagementonclick" text="User Management" />
+      <Button layoutX="9.0" layoutY="129.0" mnemonicParsing="false" onAction="#employeemanagementonclick" text="Employeee Management" />
+      <Button layoutX="14.0" layoutY="225.0" mnemonicParsing="false" onAction="#manageemployeeonclick" text="Manage Employees" />
+      <Button layoutX="14.0" layoutY="174.0" mnemonicParsing="false" onAction="#reportonclick" text="Report" />
+   </children>
+</AnchorPane>

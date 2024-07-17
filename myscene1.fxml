@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cse213projects.spring2024.cse213project.Myscene1">
+   <children>
+      <Label layoutX="216.0" layoutY="24.0" prefHeight="61.0" prefWidth="116.0" text="    Akash Digital TV " />
+      <Label layoutX="231.0" layoutY="86.0" prefHeight="18.0" prefWidth="73.0" text="Sign In " />
+      <Label layoutX="52.0" layoutY="128.0" prefHeight="18.0" prefWidth="42.0" text=" Name " />
+      <Label layoutX="59.0" layoutY="171.0" prefHeight="18.0" prefWidth="42.0" text=" ID" />
+      <TextField fx:id="nametextfield" layoutX="210.0" layoutY="124.0" />
+      <TextField fx:id="idtextfield" layoutX="211.0" layoutY="167.0" />
+      <Label layoutX="231.0" layoutY="213.0" prefHeight="18.0" prefWidth="28.0" text=" Or" />
+      <Button layoutX="219.0" layoutY="247.0" mnemonicParsing="false" onAction="#joinasguestonclick" text="Join as Guest" />
+      <Button layoutX="164.0" layoutY="303.0" mnemonicParsing="false" onAction="#signuponclick" prefHeight="26.0" prefWidth="274.0" text="Sign Up if you donot have an account " />
+   </children>
+</AnchorPane>
